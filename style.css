@@ -1,0 +1,26 @@
+body{
+    color:rgb(66, 10, 119);
+    background: aliceblue;
+    margin: 0px;
+    font-family:"Oswald", sans-serif;
+}
+
+header{
+    border-bottom: solid 3px rgb(13, 84, 190);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(51, 6, 177);
+}
+
+section{
+    background: rgb(236, 234, 255);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
