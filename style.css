@@ -1,18 +1,18 @@
 body{
-    color:rgb(251, 249, 252);
-    background: rgb(133, 135, 136);
+    color:rgb(170, 31, 240);
+    background: aliceblue;
     margin: 0px;
     font-family:"Oswald", sans-serif;
 }
 
 header{
-    border-bottom: solid 3px rgb(98, 100, 102);
+    border-bottom: solid 3px rgb(32, 12, 85);
     padding: 20px;
     font-size: 32px;
-    color: rgb(66, 66, 66);
+    color: rgb(84, 8, 107);
 }
 
-section{
+.chamada{
     background: rgb(236, 234, 255);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -26,4 +26,13 @@ section{
 img{
     height: 200px;
 }
+.categoria-vídeos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
 
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
